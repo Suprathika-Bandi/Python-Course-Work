@@ -1,5 +1,0 @@
-year = 2006
-if year % 400 and year % 4:
-    print("Leap Year")
-else:
-    print("Non-Leap Year")
