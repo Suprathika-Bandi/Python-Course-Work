@@ -1,0 +1,7 @@
+Students = {"name" : "Alexa",
+            "roll no": "34",
+            "CGPA" : "9.6",
+}
+print(Students.get("name"))
+print(Students.get("roll no"))
+print(Students.get("CGPA"))
