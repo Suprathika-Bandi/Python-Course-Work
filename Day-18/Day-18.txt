@@ -1,0 +1,7 @@
+h,m = map(int, input().split())
+if h > 12:
+   print(h-12,m,"PM")
+elif h == 12:
+   print(h,m,"PM")
+else:
+  print(h,m,"AM")
