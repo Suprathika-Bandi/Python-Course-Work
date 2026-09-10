@@ -1,0 +1,3 @@
+a = int(input("a: "))
+b = int(input("b:"))
+print(f"Add: {a+b}, Sub: {a-b}, Mul: {a*b}, Div: {a/b}")
