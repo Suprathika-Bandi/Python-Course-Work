@@ -1,0 +1,17 @@
+balance = 10000
+pin="1234"
+def deposit(amount):
+    global balance
+    balance += amount
+    return balance
+
+def withdraw(amount):
+    global balance
+    if amount > balance:
+        return "Insufficient funds"
+    else:
+        balance -= amount
+        return balance
+
+def check_balance():
+    return balance
