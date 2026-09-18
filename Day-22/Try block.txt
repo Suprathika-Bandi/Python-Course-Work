@@ -1,0 +1,9 @@
+n = int(input())
+try:
+    print("File Opened")
+    result = 100//n
+    Print(result)
+except ZeroDivisionError:
+    print("Error:Zero workers")
+finally:
+    print("File closed")
