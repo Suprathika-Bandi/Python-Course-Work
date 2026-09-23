@@ -1,0 +1,24 @@
+Seat_type = input(" Enter Your Seat Type : ")
+booking_days = int(input("Enter Your Booking Days: "))
+festival_input  = input("Enter Fesival or not:" ).lower()== "true"
+age = int(input(" Enter Your Age: "))
+Base_price = 5000
+
+if Seat_type == "Bussiness":
+    Base_price *= 1.4
+elif Seat_type == "Premium":  
+    Base_price *= 1.2
+if booking_days >= 30:
+    Base_price *= 0.9
+elif booking_days <= 7:
+    Base_price *= 1.25
+if festival_input:
+    Base_price *= 1.25
+if festival_input:
+    Base_price *= 1.2
+if age > 60:
+    Base_price *= 0.85
+print(Base_price)    
+
+
+
