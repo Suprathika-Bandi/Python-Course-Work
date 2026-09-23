@@ -1,0 +1,19 @@
+## Hierarchical Inheritance
+class Company:
+    def Rules(self):
+        print("Follow the Company rules")
+class HR_team(Company):
+    def hiring(self):
+        print("Hiring the employees")
+class frontend_team(Company):
+    def Design(self):
+        print("Designing the website")
+hr = HR_team()
+f = frontend_team()
+hr.Rules()
+hr.hiring()
+print()
+f.Rules()
+f.Design()
+print()
+        
