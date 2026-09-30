@@ -1,0 +1,7 @@
+import re
+user1 = input()
+pattern = r"\w+@\w+\.\w+"
+if re.fullmatch(pattern,user1):
+    print("Valid")
+else:
+    print("Invalid")
