@@ -1,0 +1,6 @@
+##array operation with aggreate functions
+arr = np.array([10,20,30,40])
+print(np.min(arr))
+print(np.max(arr))
+print(np.sum(arr))
+print(np.avg(arr))
