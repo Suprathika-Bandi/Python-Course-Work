@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+subject = ["python" ,"DSA","Aptitude","Softskills"]
+marks = [95,80,50,69]
+plt.bar(subject,marks)
+plt.title("Students Marks Report")
+plt.xlabel("Subjects")
+plt.ylabel("marks")
+plt.show()
